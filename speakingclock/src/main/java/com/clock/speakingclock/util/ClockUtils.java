@@ -20,7 +20,7 @@ public class ClockUtils {
 		else if (h == 0 || h == 00)
 			return " '" + "It's " + nums[12] + " " + nums[m] + " '";
 		else if (h > 12 && m == 0) {
-			return " '" + "It's " + nums[h - 12] + " " + " o' clock ";
+			return " '" + "It's " + nums[h - 12] + " " + " o' clock '";
 		} else if (h > 12) {
 			return " '" + "It's " + nums[h - 12] + " " + nums[m] + " '";
 		} else if (h != 12 && h != 00 && m == 0)
